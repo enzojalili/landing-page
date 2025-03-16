@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le SaaS des Marchands de Montres & Autos</title>
+    <style>
+        /* RESET */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        
+        /* HEADER */
+        .header-section {
+            background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .header-section h1 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 10px;
+        }
+        .header-section p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #3898ec;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #3078c6;
+            transform: scale(1.05);
+        }
+        
+        /* FEATURES */
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 20px;
+            gap: 20px;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-card h2 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .feature-card p {
+            font-size: 16px;
+            color: #555;
+        }
+        
+        /* FORMULAIRE */
+        .form-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f9f9f9;
+        }
+        .form-section input {
+            padding: 15px;
+            width: 300px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-section button {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #3898ec;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+        .form-section button:hover {
+            background-color: #3078c6;
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <section class="header-section">
+        <h1>Le SaaS des Marchands de Montres & Autos</h1>
+        <p>Une solution tout-en-un pour les professionnels de la revente</p>
+        <a href="#inscription" class="button">Accès exclusif à la bêta</a>
+    </section>
+
+    <!-- FONCTIONNALITÉS -->
+    <section class="features">
+        <div class="feature-card">
+            <h2>🔍 Sourcing Automatique</h2>
+            <p>Détectez les meilleures affaires en temps réel.</p>
+        </div>
+        <div class="feature-card">
+            <h2>💰 Comparateur de Prix</h2>
+            <p>Analysez les tendances et maximisez vos marges.</p>
+        </div>
+        <div class="feature-card">
+            <h2>📦 Gestion des Stocks</h2>
+            <p>Organisez et suivez vos transactions facilement.</p>
+        </div>
+        <div class="feature-card">
+            <h2>🤖 Automatisation des Négociations</h2>
+            <p>Envoyez des offres optimisées en un clic.</p>
+        </div>
+    </section>
+
+    <!-- FORMULAIRE -->
+    <section id="inscription" class="form-section">
+        <h2>Rejoignez la bêta dès maintenant</h2>
+        <input type="email" placeholder="Votre adresse email" required>
+        <br>
+        <button>S'inscrire</button>
+    </section>
+</body>
+</html>
